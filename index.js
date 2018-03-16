@@ -339,8 +339,8 @@ Routes.push({
                 }
             }
         },
-        description: 'Get User Feed',
-        notes: 'Returns feeds list',
+        description: 'Get User Playlists',
+        notes: 'Returns playlists',
         tags: ['api', 'users'],
         response: {schema: playlistsModel}
     }
