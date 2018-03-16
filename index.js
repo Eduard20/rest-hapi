@@ -240,7 +240,6 @@ Routes.push({
 
 (async () => {
     const server = await new Hapi.Server({
-        host: 'localhost',
         port: parseInt(process.env.PORT) || 3000
     });
 
